@@ -12,7 +12,7 @@
 - Member 1: Anagha Murali- LBSITW
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://stirring-salamander-f31eed.netlify.app/
 
 ### Project Description
 PawSafe Lite is a real-time web app that allows users to report animals in distress by placing alerts on a live map. Nearby volunteers can instantly view these requests and respond with a single click. The system ensures quick, location-based coordination to help animals faster and more efficiently. 
