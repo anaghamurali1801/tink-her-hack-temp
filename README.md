@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# PAWSAFE LITE 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: individual
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Anagha Murali- LBSITW
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+PawSafe Lite is a real-time web app that allows users to report animals in distress by placing alerts on a live map. Nearby volunteers can instantly view these requests and respond with a single click. The system ensures quick, location-based coordination to help animals faster and more efficiently. 
+
 
 ### The Problem statement
-[What problem are you solving?]
+Injured and vulnerable stray animals often do not receive timely help because there is no quick, centralized, and accessible way for people to report their location and condition to nearby rescuers.
 
 ### The Solution
-[How are you solving it?]
+PawSafe Lite is a lightweight, web-based rescue alert system that enables users to instantly report injured or vulnerable stray animals by uploading a photo and sharing their location, allowing nearby volunteers to view, respond, and coordinate rescue efforts in real time.
 
 ---
 
@@ -31,10 +31,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML,CSS,JAVASCRPT
+- Frameworks used: none
+- Libraries used: none
+- Tools used: VS Code,git,chatgpt
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +46,10 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Role-Based Access – Users can choose between Help Seeker and Volunteer modes for a focused experience.
+- Feature 2: Live Location Mapping – Alerts are placed on a real-time interactive map using geolocation.
+- Feature 3: Instant Help Alerts – Users can quickly report animals in distress with a description.
+- Feature 4: Volunteer Response Button – Volunteers can click “I can help” directly from the map marker.
 
 ---
 
@@ -83,14 +83,14 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](landing.png)
+Homepage of the app letting us choose if we want help or if we want to volunteer to help
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](rescuemap.png)
+Pinning our location for help after giving a description of an injured dog
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](volunteermap.png)
+A nearby volunteer willing to help after checking location
 
 #### Diagrams
 
