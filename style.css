@@ -1,0 +1,161 @@
+#roleScreen {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff914d, #ffb347);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#roleScreen h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#roleScreen p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#roleScreen button {
+  width: 220px;
+  padding: 14px;
+  margin: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: white;
+  color: #ff914d;
+}
+
+#roleScreen button:hover {
+  background: #fff2e8;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #333;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: #ff914d;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ---------- MODE BUTTONS ---------- */
+.mode-switch {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px;
+}
+
+.mode-switch button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.mode-switch button:hover {
+  background: #ffe6d6;
+}
+
+/* ---------- FORM CARD ---------- */
+#helpForm {
+  background: white;
+  margin: 16px auto;
+  padding: 16px;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+#helpForm textarea {
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  resize: none;
+}
+
+#helpForm button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #ff914d;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#helpForm button:hover {
+  background: #ff7a2f;
+}
+
+/* ---------- MAP ---------- */
+#map {
+  height: 420px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin-top: 12px;
+}
+
+/* ---------- LEAFLET POPUP ---------- */
+.leaflet-popup-content {
+  font-size: 14px;
+}
+
+.leaflet-popup-content button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #4caf50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.leaflet-popup-content button:hover {
+  background: #43a047;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: #777;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PawSafe Lite</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= ROLE SELECTION SCREEN ================= -->
+  <div id="roleScreen">
+    <h1>🐾 PawSafe Lite</h1>
+    <p>Choose how you want to continue</p>
+
+    <button onclick="startApp('seeker')">I Need Help</button>
+    <button onclick="startApp('volunteer')">I’m a Volunteer</button>
+  </div>
+
+
+  <!-- ================= MAIN APP (HIDDEN INITIALLY) ================= -->
+  <div id="app" style="display: none;">
+
+    <header>
+      <h1>🐾 PawSafe Lite</h1>
+      <p id="roleTitle"></p>
+    </header>
+
+    <!-- Help Form (only for seekers) -->
+    <div id="helpForm">
+      <textarea id="description" placeholder="Describe the situation…"></textarea>
+      <button onclick="submitHelp()">Submit Alert</button>
+    </div>
+
+    <div id="map"></div>
+
+    <footer>
+      Built for Hackathon MVP • Local-first • Scalable
+    </footer>
+
+  </div>
+
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Your Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
